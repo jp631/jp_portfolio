@@ -1,0 +1,36 @@
+:root{
+  --color-primary: #302095;
+  --color-secondary: #563AD7;
+  --color-tertiery: #ffff;
+
+  /*
+  font-family: 'Amiri', serif;
+font-family: 'Scheherazade', serif;
+  */
+
+  --font-primary: 'Noto Serif', serif;
+  --font-secondary: 'Scheherazade', serif;
+
+  --sm-margin: 3rem;
+  --xl-margin: 20rem;
+
+  --xsm-padding: .5rem;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%; /*10px / 16px of the default font-size of most browsers * 100%  which results 1rem =10px */
+
+ /* @media only screen and (max-width: $bp-largest){
+   font-size: 50%;
+ } */
+}
